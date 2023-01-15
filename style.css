@@ -1,0 +1,93 @@
+* {
+	margin-top: 0px;
+}
+
+.landing-image {
+	background-image: url("https://source.unsplash.com/850x350/?computer,programming");
+	background-size: cover;
+	background-position: center;
+	height: 28vh;
+	filter: blur(6px);
+}
+
+.landing-text {
+	position: absolute;
+	top: 12%;
+	left: 40%;
+	transform: translate(-30%, -50%);
+	font-size: 5rem;
+	font-family: 'Roboto', sans-serif;
+	color: yellow;
+	font-weight: 1000;
+	text-shadow: 1px 1px black;
+}
+
+.landing-text-subtitle {
+	position: absolute;
+	top: 19%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+	color: blue;
+	font-weight: 600;
+	text-shadow: 1px 1px white;
+}
+
+
+.navbar {
+	margin-top: 20px;
+	display: flex;
+	background-color: black;
+	padding: 10px 10px;
+}
+
+.nav-item {
+	flex: 1;
+	text-decoration: none;
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-weight: 800;
+}
+
+.showcase {
+	display: flex;
+	/* margin-top: 15px; */
+	margin: 10px 0px 10px 15px;
+}
+
+.showcase-item {
+	flex: 1;
+	margin-right: 20px;
+	width: 30%;
+}
+
+.loremipsum-h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+}
+
+.loremipsum-p {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.footer {
+	display: flex;
+	/* padding: 30px 30px 60px 30px; */
+	align-items: center;
+	padding-left: 50px;
+}
+
+.footer-item {
+	flex: 1;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	font-weight: 700;
+	font-size: 1rem;
+	text-decoration: none;
+
+}
